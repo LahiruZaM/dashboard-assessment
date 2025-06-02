@@ -24,10 +24,9 @@ import { useState } from "react";
 export default function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);
 
-  // ✅ Updated colors
-  const bg = useColorModeValue("#f8fafc", "#0f172a"); // Light / Dark BG
-  const textColor = useColorModeValue("#1e293b", "#f8fafc"); // Text
-  const hoverBg = useColorModeValue("#e2e8f0", "#334155"); // Hover
+  const bg = useColorModeValue("#f8fafc", "#0f172a");
+  const textColor = useColorModeValue("#1e293b", "#f8fafc");
+  const hoverBg = useColorModeValue("#e2e8f0", "#334155");
 
   const menuItems = [
     { label: "Dashboard", icon: <FiGrid /> },
