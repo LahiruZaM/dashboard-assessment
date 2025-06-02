@@ -74,8 +74,8 @@ export default function ActivityLogCard() {
       border="1px solid"
       borderColor={borderColor}
       h="300px"
-      overflowY="auto" // 👈 ensures inner scroll
-      w="100%" // 👈 match parent column width
+      overflowY="auto" 
+      w="100%" 
     >
       <Text fontSize="md" fontWeight="semibold" mb="4">
         Activity Log

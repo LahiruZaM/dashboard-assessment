@@ -77,8 +77,6 @@ export default function Home() {
               <AuthMethodCard />
             </Box>
           </Box>
-
-          {/* Activity Log */}
           <Box w="100%">
             <ActivityLogCard />
           </Box>

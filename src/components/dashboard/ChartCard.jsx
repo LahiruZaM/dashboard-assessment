@@ -45,8 +45,6 @@ export default function ChartCard() {
           +8% from last month
         </Text>
       </Flex>
-
-      {/* ResponsiveContainer is key for responsive width/height */}
       <ResponsiveContainer width="100%" height="80%">
         <AreaChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
           <defs>

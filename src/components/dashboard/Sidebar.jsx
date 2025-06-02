@@ -53,7 +53,6 @@ export default function Sidebar({ collapsed, setCollapsed }) {
       <Flex justify="space-between" align="center" mb="6">
         {!collapsed && !isMobile && <Text fontWeight="bold">LOGO</Text>}
         <Flex gap="2" align="center">
-          {/* ✅ REPLACED IconButton with manual button + icon */}
           <Button
             onClick={() => setCollapsed(!collapsed)}
             size="sm"
