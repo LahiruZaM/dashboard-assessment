@@ -35,7 +35,7 @@ export default function ChartCard() {
       shadow="sm"
       border="1px solid"
       borderColor={borderColor}
-      height="500px" 
+      height="650px" 
     >
       <Flex justify="space-between" mb="4">
         <Text fontSize="md" fontWeight="semibold">
