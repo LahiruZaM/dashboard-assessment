@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard Assessment
 
-## Getting Started
+A fully responsive, clean, and accessible **Admin Dashboard** built using **Next.js 15** and **Chakra UI v3.19.2**. This project transforms a given wireframe into a production-ready web application with modern design, theme support, and real-world functionality.
 
-First, run the development server:
+## ✨ Live Preview
+
+**▶⃣ [Live Site](https://dashboard-mu-ochre.vercel.app/)**
+
+## 📏 Figma Design
+
+**▶⃣ [View Figma Design](https://www.figma.com/design/86NqIMsSmjPT19YkhnJI5V/Octopus-BI-Assessment?node-id=0-1&t=arwpl19KkATXs15l-1)**
+
+---
+
+## 📂 Features
+
+* Responsive layout for desktop & mobile
+* Collapsible sidebar with icon tooltips
+* Light / dark mode toggle (persistent)
+* Custom dashboard cards with stats
+* Area chart + donut chart (via Recharts)
+* Scrollable activity log
+* Mobile-friendly top navbar with dropdown menu
+
+---
+
+## 🚀 Tech Stack
+
+* **Next.js 15** (App Router)
+* **Chakra UI 3.19.2** (with @chakra-ui/modal)
+* **React Icons**
+* **Recharts** (charts & visualization)
+
+---
+
+## 🛠️ Installation
 
 ```bash
+# Clone the repository
+https://github.com/LahiruZaM/dashboard-assessment.git
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💡 Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Designed in Figma based on a provided wireframe
+* Built with scalable components for real-world use
+* Sidebar and top nav adapt across breakpoints
+* Theme-aware styling using Chakra's custom hooks
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👥 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Lahiru Dayananda**
+GitHub: [@LahiruZaM](https://github.com/LahiruZaM)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
