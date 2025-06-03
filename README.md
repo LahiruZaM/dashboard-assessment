@@ -27,9 +27,8 @@ A fully responsive, clean, and accessible **Admin Dashboard** built using **Next
 ## 🚀 Tech Stack
 
 * **Next.js 15** (App Router)
-* **Chakra UI 3.19.2** (with @chakra-ui/modal)
+* **Chakra UI 3.19.2** (with @chakra-ui/modal and charts)
 * **React Icons**
-* **Recharts** (charts & visualization)
 
 ---
 
